@@ -1,6 +1,6 @@
 import React, { useState,useEffect } from 'react'
 import { useParams } from 'react-router-dom'
-import backup  from '../assets/notfound.png'
+import backup  from '../assets/notavailable.jpg'
 import { useTitle } from '../hooks/useTitle';
 
 export const Moviedetail = () => {

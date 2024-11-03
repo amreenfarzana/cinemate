@@ -1,5 +1,5 @@
 import React from 'react'
-import backup  from '../assets/notfound.png'
+import backup  from '../assets/notavailable.jpg'
 import { Link } from 'react-router-dom'
 export const Card = ({movie}) => {
   const {id,original_title,overview,poster_path} = movie;
