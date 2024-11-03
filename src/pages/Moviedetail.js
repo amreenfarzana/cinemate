@@ -44,23 +44,23 @@ export const Moviedetail = () => {
                 <span className="w-1 h-1 mx-1.5 bg-gray-500 rounded-full dark:bg-gray-400"></span>
                 <span href="#" className="text-gray-900 ark:text-white dark:text-white">{movie.vote_count}</span>
             </div>
-            <p className='my-4'>
+            <p className='my-4 flex items-center'>
                 <span className='mr-2 font-bold'>Runtime:</span>
                 <span>{movie.runtime} min.</span>
             </p>
-            <p className='my-4'>
+            <p className='my-4 flex items-center'>
                 <span className='mr-2 font-bold'>Budget:</span>
                 <span>{movie.budget}</span>
             </p>
-            <p className='my-4'>
+            <p className='my-4 flex items-center'>
                 <span className='mr-2 font-bold'>Revenue:</span>
                 <span>{movie.revenue}</span>
             </p>
-            <p className='my-4'>
+            <p className='my-4 flex items-center'>
                 <span className='mr-2 font-bold'>Release Date:</span>
                 <span>{movie.release_date}</span>
             </p>
-            <p className='my-4'>
+            <p className='my-4 flex items-center'>
                 <span className='mr-2 font-bold'>IMDB Code:</span>
                 <a href={`https://www.imdb.com/title/${movie.imdb_id}`} target="_blank" rel="noreferrer">{movie.imdb_id}</a>
             </p>
